@@ -1,0 +1,29 @@
+.detail-quiz-container {
+    .left-content {
+        border: 2px solid #ccc;
+        border-radius: 6px;
+        min-height: 400px;
+        padding: 10px 12px;
+
+        .answer-title {
+            padding: 8px 0 24px;
+        }
+    }
+    .right-content {
+        max-height: calc(100vh - 141px);
+        min-height: 200px;
+        border: 2px solid #ccc;
+        border-radius: 6px;
+        position: relative;
+    }
+
+    .answer-footer {
+        display: flex;
+        justify-content: center;
+        button {
+            margin: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+    }
+}

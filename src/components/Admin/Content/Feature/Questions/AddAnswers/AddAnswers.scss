@@ -1,0 +1,12 @@
+.add-answers-container {
+    display: flex;
+    align-items: center;
+
+    .subtract-ans {
+        color: orange;
+    }
+
+    .lb-floating {
+        z-index: 1;
+    }
+}

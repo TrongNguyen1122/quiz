@@ -1,0 +1,29 @@
+.header {
+    font-size: 18px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar-header {
+        display: flex;
+        align-items: center;
+
+        .brand {
+            margin: 0 14px 0 0;
+            font-size: 34px;
+            padding: 4px;
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+        }
+        .item {
+            text-decoration: none;
+            color: #000;
+            &:hover {
+                color: rgb(43, 163, 219);
+            }
+            padding: 12px 8px;
+        }
+    }
+}

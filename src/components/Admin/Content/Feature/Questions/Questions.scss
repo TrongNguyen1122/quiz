@@ -1,0 +1,19 @@
+.questions-container {
+    padding: 8px;
+    .select-quiz {
+        .sl {
+            flex: 1;
+            background-color: #fff;
+            z-index: 2;
+        }
+    }
+    .add-questions {
+        max-height: calc(100vh - 180px);
+        overflow-y: auto;
+        border-top: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .end-page {
+        margin-top: 185px;
+    }
+}

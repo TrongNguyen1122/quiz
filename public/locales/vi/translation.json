@@ -1,0 +1,116 @@
+{
+    "header": {
+        "home": "Trang chủ",
+        "user": "Người dùng",
+        "admin": "Quản trị viên",
+        "popup": {
+            "profile": "Thông tin người dùng",
+            "logout": "Đăng xuất",
+            "login": "Đăng nhập",
+            "signup": "Đăng ký"
+        }
+    },
+    "homepage": {
+        "title1": "Khám phá bản thân với những câu hỏi thú vị",
+        "description": "Các câu hỏi được thiết kế để cung cấp những trải nghiệm độc đáo, giúp bạn tìm hiểu và hiểu rõ hơn về bản thân - từ sở thích, tính cách đến khía cạnh cảm xúc sâu sắc nhất của bạn.",
+        "btnStarted": "Bắt đầu nào!",
+        "btnDoingQuiz": "Làm bài Quiz ngay"
+    },
+    "quiz": {
+        "titleNoQuiz": "Bạn không có bất kì bài Quiz nào...",
+        "btnStart": "Bắt đầu",
+        "btnPrev": "Trước",
+        "btnNext": "Tiếp",
+        "btnFinish": "Nộp bài",
+        "btnStartOver": "Bắt đầu lại",
+        "result": {
+            "title": "Kết quả...",
+            "totalQuestion": "Tổng câu hỏi: ",
+            "totalCorrect": "Tổng số câu trả lời đúng: ",
+            "btnShowCorrect": "Hiện câu trả lời đúng",
+            "btnClose": "Đóng"
+        }
+    },
+    "admin": {
+        "sidebar": {
+            "dashboard": "Bảng điều khiển",
+            "feature": "Tính năng"
+        },
+        "feature": {
+            "users": "Quản lý người dùng",
+            "quizzes": "Quản lý bài Quiz",
+            "questions": "Quản lý Câu hỏi"
+        },
+        "users": {
+            "title": "Quản lý Người dùng",
+            "btnAddUser": "Thên người dùng",
+            "table": {
+                "username": "Tên người dùng",
+                "role": "Vai trò",
+                "action": "Thao tác",
+                "btnPrev": "Trước",
+                "btnNext": "Tiếp"
+            }
+        },
+        "quizzes": {
+            "quizzes": {
+                "title": "Quản lý bài Quiz",
+                "btnAddQuiz": "Thêm bài quiz",
+                "table": {
+                    "name": "Tên bài Quiz",
+                    "description": "Mô tả",
+                    "type": "Loại",
+                    "action": "Thao tác",
+                    "notFoundQuiz": "Không tìm thấy bài Quiz"
+                }
+            },
+            "assign": {
+                "title": "Gán cho người dùng",
+                "selectQuiz": "Chọn bài Quiz: ",
+                "selectUser": "Chọn người dùng: ",
+                "btnAssign": "Gán bài Quiz"
+            },
+            "update": {
+                "title": "Cập nhật Q/A Quizzes"
+            }
+        },
+        "questions": {
+            "title": "Quản lý Câu hỏi ",
+            "selectQuiz": "Chọn bài Quiz:",
+            "time": "Thời gian",
+            "minute": "Phút",
+            "btnSave": "Lưu Câu hỏi",
+            "titleAdd": "Thêm Câu hỏi",
+            "inputDescription": " Mô tả câu hỏi",
+            "answers": "Câu trả lời"
+        },
+        "tippy": {
+            "uploadImage": "Tải hình ảnh lên",
+            "previewImage": "Xem trước hình ảnh",
+            "add": "Thêm",
+            "delete": "Xóa",
+            "edit": "Sửa"
+        },
+        "modal": {
+            "titleAddUser": "Thêm người dùng",
+            "titleEditUser": "Sửa người dùng",
+            "titleDeleteUser": "Xác nhận xóa người dùng?",
+            "titleDeleteQuiz": "Xác nhận xóa bài Quiz?",
+            "titleAddQuiz": "Thêm bài Quiz",
+            "titleEditQuiz": "Sửa bài Quiz",
+            "descriptDelete": "Bạn có chắc chắn muốn xóa người dùng này không?",
+            "descriptDeleteQuiz": "Bạn có chắc chắn muốn xóa bài Quiz này không?",
+            "nameQuizDelete": "Tên = ",
+            "password": "Mật khẩu",
+            "username": "Tên người dùng",
+            "role": "Vai trò",
+            "uploadImage": "Tải hình ảnh lên",
+            "previewImage": "Xem trước hình ảnh",
+            "btnClose": "Đóng",
+            "btnSave": "Lưu",
+            "name": "Tên",
+            "description": "Mô tả",
+            "quizType": "Loại Quiz"
+        }
+    }
+}

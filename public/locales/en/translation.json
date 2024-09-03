@@ -1,0 +1,114 @@
+{
+    "header": {
+        "home": "Home",
+        "user": "user",
+        "admin": "admin",
+        "popup": {
+            "profile": "Profile",
+            "logout": "Logout",
+            "login": "Login",
+            "signup": "Signup"
+        }
+    },
+    "homepage": {
+        "title1": "Explore yourself with interesting questions",
+        "description": "The questions are designed to provide unique experiences, helping you learn and understand more about yourself - from your interests, personality to your deepest emotional aspects.",
+        "btnStarted": "Get's Started",
+        "btnDoingQuiz": "Doing Quiz Now"
+    },
+    "quiz": {
+        "titleNoQuiz": "You don't have any quiz now...",
+        "btnStart": "Start Now",
+        "btnPrev": "Prev",
+        "btnNext": "Next",
+        "btnFinish": "Finish",
+        "btnStartOver": "Start over",
+        "result": {
+            "title": "Your Result...",
+            "totalQuestion": "Total Questions : ",
+            "totalCorrect": "Total Correct answers : ",
+            "btnShowCorrect": "Show correct answers",
+            "btnClose": "Close"
+        }
+    },
+    "admin": {
+        "sidebar": {
+            "dashboard": "Dashboard",
+            "feature": "Feature"
+        },
+
+        "users": {
+            "title": "Manage Users",
+            "btnAddUser": "Add new user",
+            "table": {
+                "username": "Username",
+                "role": "Role",
+                "action": "action",
+                "btnPrev": "Previous",
+                "btnNext": "Next",
+                "notFoundUser": "Not found user"
+            }
+        },
+        "quizzes": {
+            "quizzes": {
+                "title": "Manage Quizzes",
+                "btnAddQuiz": "Add new quiz",
+                "table": {
+                    "name": "Name",
+                    "description": "Description",
+                    "type": "Type",
+                    "action": "Actions",
+                    "notFoundQuiz": "Not found quiz"
+                }
+            },
+            "assign": {
+                "title": "Assign to Users",
+                "selectQuiz": "Select Quiz: ",
+                "selectUser": "Select User: ",
+                "btnAssign": "Assign"
+            },
+            "update": {
+                "title": "Update Q/A Quizzes"
+            }
+        },
+        "questions": {
+            "title": "Manage Questions ",
+            "selectQuiz": "Select Quiz:",
+            "time": "Time",
+            "minute": "Minute",
+            "btnSave": "Save Questions",
+            "titleAdd": "Add question",
+            "inputDescription": " Question's description",
+            "answers": "Answer"
+        },
+        "tippy": {
+            "uploadImage": "Upload Image",
+            "previewImage": "Preview Image",
+            "add": "Add",
+            "delete": "Delete",
+            "edit": "Edit"
+        },
+        "modal": {
+            "titleAddUser": "Add New User",
+            "titleEditUser": "Edit User",
+            "titleDeleteUser": "Confirm Delete the User?",
+            "titleDeleteQuiz": "Confirm Delete the Quiz?",
+            "titleAddQuiz": "Add New Quiz",
+            "titleEditQuiz": "Edit Quiz",
+            "descriptDelete": "Are you sure to delete this user.",
+            "descriptDeleteQuiz": "Are you sure to delete this quiz.",
+            "emailDelete": "email = ",
+            "nameQuizDelete": "name = ",
+            "password": "Password",
+            "username": "Username",
+            "role": "Role",
+            "uploadImage": "Upload File Image",
+            "previewImage": "Preview Image",
+            "btnClose": "Close",
+            "btnSave": "Save",
+            "name": "Name",
+            "description": "Description",
+            "quizType": "Quiz Type"
+        }
+    }
+}

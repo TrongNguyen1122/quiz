@@ -1,0 +1,33 @@
+.header-user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .user-image {
+        width: 46px;
+        height: 46px;
+        margin-left: 8px;
+        display: flex;
+        align-items: center;
+        i {
+            font-size: 34px;
+            color: #6a6a6a;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 100%;
+            border: 1px solid #ccc;
+        }
+    }
+}
+@media (max-width: 746px) {
+    .header-username {
+        display: none;
+    }
+
+    .username-mobile {
+        display: block;
+    }
+}

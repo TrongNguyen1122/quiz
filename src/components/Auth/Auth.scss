@@ -1,0 +1,65 @@
+.login-container {
+}
+
+.login-header {
+    padding: 8px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    h1 {
+        cursor: pointer;
+    }
+
+    span {
+        font-weight: 500;
+    }
+}
+
+.login-body {
+    width: 420px;
+    max-width: 100%;
+
+    h2 {
+        font-size: 36px;
+    }
+    .login-form-group {
+        .login-label {
+            display: block;
+            padding-top: 12px;
+            i {
+                padding-right: 6px;
+                color: #333;
+            }
+        }
+        .mess {
+            font-size: 14px;
+        }
+    }
+    .forgot-password {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .btn-submit {
+        width: 100%;
+    }
+}
+
+.invalid .mess {
+    color: red;
+}
+
+.icon-loading {
+    margin-right: 6px;
+    animation: spin 1s infinite ease-out;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
