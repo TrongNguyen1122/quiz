@@ -6,7 +6,7 @@ import ModalQuiz from './ModalQuiz';
 import TableQuiz from './TableQuiz/TableQuiz';
 
 import { getAllQuizForAdmin } from '../../../../../services/quizServices';
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Tab, Tabs } from 'react-bootstrap';
 import QuizQA from './QuizQA/QuizQA';
 import AssignQuiz from './AssignQuiz/AssignQuiz';
 import { useTranslation } from 'react-i18next';
@@ -27,36 +27,26 @@ function ManageQuiz() {
     return (
         <>
             <div className="quiz-container">
-                <Accordion>
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>{t('admin.quizzes.quizzes.title')}</Accordion.Header>
-                        <Accordion.Body>
-                            <button className="btn btn-primary mb-3" onClick={() => setShowModal(true)}>
-                                <i className="pe-2">
-                                    <FontAwesomeIcon icon={faPlus} />
-                                </i>
-                                {t('admin.quizzes.quizzes.btnAddQuiz')}
-                            </button>
-                            <div className="quiz-list-detail">
-                                <TableQuiz listQuiz={listQuiz} fetchApiQuizAll={fetchApiQuizAll} />
-                            </div>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="1">
-                        <Accordion.Header> {t('admin.quizzes.assign.title')}</Accordion.Header>
-                        <Accordion.Body>
-                            <AssignQuiz />
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="2">
-                        <Accordion.Header>{t('admin.quizzes.update.title')}</Accordion.Header>
-                        <Accordion.Body>
-                            <QuizQA />
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
+                <Tabs defaultActiveKey="0" id="justify-tab-example" className="mb-3" justify>
+                    <Tab eventKey="0" title={t('admin.quizzes.quizzes.title')}>
+                        <button className="btn btn-primary mb-3" onClick={() => setShowModal(true)}>
+                            <i className="pe-2">
+                                <FontAwesomeIcon icon={faPlus} />
+                            </i>
+                            {t('admin.quizzes.quizzes.btnAddQuiz')}
+                        </button>
+                        <div className="quiz-list-detail">
+                            <TableQuiz listQuiz={listQuiz} fetchApiQuizAll={fetchApiQuizAll} />
+                        </div>
+                    </Tab>
+                    <Tab eventKey="1" title={t('admin.quizzes.assign.title')}>
+                        <AssignQuiz />
+                    </Tab>
+                    <Tab eventKey="2" title={t('admin.quizzes.update.title')}>
+                        <QuizQA />
+                    </Tab>
+                </Tabs>
             </div>
-
             <ModalQuiz show={showModal} setShow={setShowModal} fetchApiQuizAll={fetchApiQuizAll} />
         </>
     );

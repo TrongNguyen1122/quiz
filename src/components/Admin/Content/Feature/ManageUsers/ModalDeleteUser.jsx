@@ -9,7 +9,6 @@ function ModalDeleteUser({ show, setShow, infoUser, fetchApiListUsers }) {
     const handleDeleteUser = async () => {
         try {
             if (!!infoUser && !!infoUser.id) {
-                console.log(infoUser.id);
                 const res = await userServices.deleteUser(infoUser.id);
                 if (res && res.EC === 0) {
                     toast.success(res.EM);

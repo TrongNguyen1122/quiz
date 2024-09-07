@@ -17,7 +17,6 @@ function AddAnswers({ dataAnswer, questionId, handleDataAnswer, listAnswer, list
                 if (answer.id === dataAnswer.id) {
                     if (type === 'CHECKBOX') {
                         answer.isCorrect = value;
-                        console.log(answer.isCorrect);
                     } else if (type === 'INPUT') {
                         answer.description = value;
                     }

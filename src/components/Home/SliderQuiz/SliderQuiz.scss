@@ -1,0 +1,11 @@
+.slider-container {
+    .carousel-caption {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0px 0px 25px rgba(255, 255, 255, 0.5);
+    }
+
+    .slider-image {
+        width: 100vw;
+        height: 440px;
+        object-fit: cover;
+    }
+}

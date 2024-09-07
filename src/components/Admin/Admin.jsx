@@ -18,7 +18,7 @@ function Admin() {
             <div className="admin-sidebar">
                 <SideBar colapsed={colapsed} />
             </div>
-            <div className="admin-content">
+            <div className="admin-content container">
                 <div className="admin-header">
                     <div className="admin-toggle-sidebar" onClick={() => handleToggle()}>
                         <FontAwesomeIcon icon={faBars} />

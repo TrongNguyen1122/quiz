@@ -1,4 +1,4 @@
-import { FETCH_USER_LOGIN_SUCCESS, FETCH_USER_LOGOUT_SUCCESS } from '../action/userAction';
+import { FETCH_USER_LOGIN_SUCCESS, FETCH_USER_LOGOUT_SUCCESS, FETCH_USER_UPDATE_PROFILE } from '../action/userAction';
 
 const INITIAL_STATE = {
     account: {
@@ -25,7 +25,15 @@ const userReducer = (state = INITIAL_STATE, action) => {
             return {
                 ...INITIAL_STATE,
             };
-
+        case FETCH_USER_UPDATE_PROFILE:
+            return {
+                ...state,
+                account: {
+                    ...state.account,
+                    username: action.payload.username,
+                    image: action.payload.image,
+                },
+            };
         default:
             return state;
     }

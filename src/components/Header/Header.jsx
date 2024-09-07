@@ -27,7 +27,7 @@ function Header() {
                     </Link>
 
                     {role === 'ADMIN' ? (
-                        <Link className="item" to="/admin">
+                        <Link className="item" to="/admin/dashboard">
                             {t('header.admin')}
                         </Link>
                     ) : (

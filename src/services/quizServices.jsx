@@ -76,3 +76,7 @@ export const getQuizWithQA = (quizId) => {
 export const postUpsertQA = (data) => {
     return request.post(`api/v1/quiz-upsert-qa`, { ...data });
 };
+
+export const getOverview = () => {
+    return request.get(`api/v1/overview`);
+};

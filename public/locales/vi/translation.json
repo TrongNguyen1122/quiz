@@ -10,11 +10,35 @@
             "signup": "Đăng ký"
         }
     },
+    "footer": {
+        "info": "Thông tin liên hệ",
+        "phone": "ĐT",
+        "address": "Địa chỉ",
+        "social": "Mạng xã hội",
+        "tech": "Công nghệ",
+        "intro": "Giới thiệu",
+        "member": "Thành viên",
+        "tilteLogin": "Đăng ký nhận tin",
+        "btnLogin": "Đăng nhập",
+        "btnSignup": "Đăng ký"
+    },
     "homepage": {
         "title1": "Khám phá bản thân với những câu hỏi thú vị",
         "description": "Các câu hỏi được thiết kế để cung cấp những trải nghiệm độc đáo, giúp bạn tìm hiểu và hiểu rõ hơn về bản thân - từ sở thích, tính cách đến khía cạnh cảm xúc sâu sắc nhất của bạn.",
         "btnStarted": "Bắt đầu nào!",
-        "btnDoingQuiz": "Làm bài Quiz ngay"
+        "btnDoingQuiz": "Làm bài Quiz ngay",
+        "carousel": {
+            "title1": "Giải bài test nhanh chóng và chính xác",
+            "description1": "Khám phá hàng ngàn câu hỏi trắc nghiệm và bài test đa dạng. Nâng cao kiến thức của bạn với các câu trả lời rõ ràng",
+            "title2": "Kiểm tra kiến thức của bạn với bài test trực tuyến",
+            "description2": "Tham gia các bài test trực tuyến miễn phí để kiểm tra kiến thức của bạn. Nhận phản hồi ngay lập tức và cải thiện kỹ năng học tập.",
+            "title3": "Hỗ trợ học tập 24/7 với câu hỏi và bài test",
+            "description3": "Chúng tôi cung cấp hỗ trợ học tập mọi lúc, mọi nơi. Tìm kiếm câu hỏi và bài test theo chủ đề để nâng cao khả năng của bạn.",
+            "title4": "Học tập hiệu quả với câu hỏi trắc nghiệm",
+            "description4": "Khám phá bộ câu hỏi trắc nghiệm phong phú giúp tăng cường vốn kiến thức của bạn. Luyện tập và đạt điểm cao hơn!",
+            "title5": "Thách thức bản thân với bài test hàng tuần",
+            "description5": "Tham gia bài test hàng tuần để kiểm tra và cải thiện kiến thức của bạn. Đừng ngần ngại, hãy thách thức bản thân ngay hôm nay!"
+        }
     },
     "quiz": {
         "titleNoQuiz": "Bạn không có bất kì bài Quiz nào...",
@@ -32,6 +56,13 @@
         }
     },
     "admin": {
+        "dashboard": {
+            "title": "Phân tích",
+            "user": "Tổng người dùng",
+            "question": "Tổng câu hỏi",
+            "answer": "Tổng câu trả lời",
+            "quiz": "Tổng bài Quiz"
+        },
         "sidebar": {
             "dashboard": "Bảng điều khiển",
             "feature": "Tính năng"

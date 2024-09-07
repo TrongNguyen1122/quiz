@@ -4,7 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    position: fixed;
+    z-index: 99;
+    background-color: rgba(193, 215, 244, 0.9);
     .navbar-header {
         display: flex;
         align-items: center;

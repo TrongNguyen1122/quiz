@@ -49,3 +49,21 @@ export const logout = (email, refresh_token) => {
         refresh_token,
     });
 };
+
+export const updateProfile = (username, image) => {
+    const data = new FormData();
+    data.append('username', username);
+    data.append('userImage', image);
+    return request.post('api/v1/profile', data);
+};
+
+export const postChangePassword = (current_password, new_password) => {
+    return request.post('/api/v1/change-password', {
+        current_password,
+        new_password,
+    });
+};
+
+export const getHistory = () => {
+    return request.get('api/v1/history');
+};

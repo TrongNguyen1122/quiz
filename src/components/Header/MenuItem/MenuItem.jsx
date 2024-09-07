@@ -38,11 +38,11 @@ function MenuItem({ data }) {
     return (
         <>
             <div className="popup-user">
-                {<div className=" username-mobile">{account.username}</div>}
+                {<div className=" username-mobile px-3">{account.username}</div>}
                 <Language />
                 {isAuthenticated ? (
                     <>
-                        <div className="popup-item">
+                        <div className="popup-item" onClick={() => navigate('/profile')}>
                             <i className="me-1" style={{ color: '#605c5c' }}>
                                 <FontAwesomeIcon icon={faAddressCard} />
                             </i>

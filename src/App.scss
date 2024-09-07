@@ -13,6 +13,8 @@ html {
 
 .app-container {
     .header-container {
+        display: flex;
+        justify-content: center;
         .btn-login,
         .btn-signup {
             margin: 0 6px;
@@ -21,7 +23,6 @@ html {
             padding: 0 24px;
             line-height: 1rem;
         }
-
         .navbar {
             z-index: 10;
             padding-top: 20px;
@@ -33,27 +34,12 @@ html {
             }
         }
     }
+    .content-container {
+        margin-top: 72px;
+    }
 }
 
 video {
     width: 50vw;
     float: right;
-}
-
-.homepage-header {
-    display: flex;
-    align-items: center;
-
-    .homepage-content {
-        padding: 40px;
-
-        h2 {
-            font-style: bold;
-            font-weight: 800;
-        }
-
-        p {
-            font-style: oblique;
-        }
-    }
 }

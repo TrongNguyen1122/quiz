@@ -161,7 +161,6 @@ function Questions({ callUpdate }) {
             toast.error(`Not check correct Answer at Question ${indexQ + 1}`);
             return;
         }
-        console.log(timeQuiz);
         if (+timeQuiz === 0) {
             toast.error(`Set time for the QUIZ`);
             return;
@@ -194,7 +193,6 @@ function Questions({ callUpdate }) {
             const question = listquestion[index];
             if (index === 0) {
                 question.description = question.description + `@#$${timeQuiz}`;
-                console.log(question.description);
             }
             const q = await postCreateNewQuestionForQuiz(+selectedQuiz.value, question.description, question.imageFile);
 

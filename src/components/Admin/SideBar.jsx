@@ -26,7 +26,7 @@ function SideBar({ colapsed }) {
                     <p onClick={() => navigate('/')} className="sidebar-header">
                         QUIZ
                     </p>
-                    <MenuItem component={<Link to="/admin" />}>
+                    <MenuItem component={<Link to="dashboard" />}>
                         <i>
                             <FontAwesomeIcon icon={faChartLine} />
                         </i>

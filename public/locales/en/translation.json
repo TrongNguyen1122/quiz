@@ -10,11 +10,35 @@
             "signup": "Signup"
         }
     },
+    "footer": {
+        "info": "Contact information",
+        "phone": "Phone",
+        "address": "Address",
+        "social": "Social media",
+        "tech": "Technology",
+        "intro": "Introduce",
+        "member": "Member",
+        "tilteLogin": "Sign up for news",
+        "btnLogin": "Log in ",
+        "btnSignup": "Sign up"
+    },
     "homepage": {
         "title1": "Explore yourself with interesting questions",
         "description": "The questions are designed to provide unique experiences, helping you learn and understand more about yourself - from your interests, personality to your deepest emotional aspects.",
         "btnStarted": "Get's Started",
-        "btnDoingQuiz": "Doing Quiz Now"
+        "btnDoingQuiz": "Doing Quiz Now",
+        "carousel": {
+            "title1": "Solve the test quickly and accurately",
+            "description1": "Explore thousands of quizzes and tests. Improve your knowledge with clear answers.",
+            "title2": "Test your knowledge with an online test",
+            "description2": "Take free online tests to test your knowledge. Get instant feedback and improve your study skills.",
+            "title3": "24/7 learning support with questions and tests",
+            "description3": "We provide study support anytime, anywhere. Find questions and tests by topic to improve your skills.",
+            "title4": "Study effectively with multiple choice questions",
+            "description4": "Explore a wide range of quizzes to boost your knowledge. Practice and score higher!",
+            "title5": "Challenge yourself with weekly tests",
+            "description5": "Take our weekly quiz to test and improve your knowledge. Don't hesitate, challenge yourself today!"
+        }
     },
     "quiz": {
         "titleNoQuiz": "You don't have any quiz now...",
@@ -32,6 +56,13 @@
         }
     },
     "admin": {
+        "dashboard": {
+            "title": "Analytics Dashboard",
+            "user": "Total User",
+            "question": "Total Questions",
+            "answer": "Total Answers",
+            "quiz": "Total Quizzes"
+        },
         "sidebar": {
             "dashboard": "Dashboard",
             "feature": "Feature"

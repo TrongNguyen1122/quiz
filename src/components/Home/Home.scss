@@ -1,0 +1,22 @@
+.homepage-container {
+    margin-top: 8px;
+    .homepage-carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homepage-video {
+        display: flex;
+        align-items: center;
+        .homepage-content {
+            h2 {
+                font-style: bold;
+                font-weight: 800;
+            }
+
+            p {
+                font-style: oblique;
+            }
+        }
+    }
+}

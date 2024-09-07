@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 function CountDown({ timeQuiz, onTimeUp }) {
-    const [count, setCount] = useState(timeQuiz);
+    const [count, setCount] = useState(10);
 
     useEffect(() => {
         // Cập nhật count khi timeQuiz thay đổi
@@ -11,11 +11,13 @@ function CountDown({ timeQuiz, onTimeUp }) {
 
     useEffect(() => {
         if (count === 0 || timeQuiz === 0) {
-            onTimeUp();
             return;
         }
         const time = setInterval(() => {
             setCount((prev) => prev - 1);
+            if (count === 0 || timeQuiz === 0) {
+                onTimeUp();
+            }
         }, 1000);
 
         return () => {
